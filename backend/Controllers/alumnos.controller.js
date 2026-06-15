@@ -1,4 +1,4 @@
-import { TablaAlumno } from "../Models/alumnos.models.js";
+import { TablaAlumno } from "/Models/alumnos.models.js";
 TablaAlumno.create({
     Alumno:"Oziel",
     Matricula:"utm240293",
@@ -10,7 +10,7 @@ TablaAlumno.create({
 
 });
 TablaAlumno.create({
-    Alumno: "Maria",
+    Alumno: "Maria"
     Matricula: "utm234232",
     CalificacionMateria: 65,
     Asistencia: 75,
@@ -30,14 +30,14 @@ TablaAlumno.create({
 });
 
 TablaAlumno.create({
-    Alumno: "Alan",
+    Alumno: "Alan,
     Matricula: "utm23223",
     CalificacionMateria: 58,
     Asistencia: 70,
     Promedio: 60,
     Grado: "2B",
     Prediccion: "Puede reprobar"
-});
+})
 
 TablaAlumno.create({
     Alumno: "Alejandro",
@@ -47,9 +47,9 @@ TablaAlumno.create({
     Promedio: 90,
     Grado: "1A",
     Prediccion: "No reprobara"
-});
+);
 
-TablaAlumno.create({
+TablaAlumno,create({
     Alumno: "Gael",
     Matricula: "utm2232323",
     CalificacionMateria: 72,
@@ -64,7 +64,7 @@ TablaAlumno.create({
     Matricula: "utm240723",
     CalificacionMateria: 55,
     Asistencia: 65,
-    Promedio: 58,
+    Promedo: 58,
     Grado: "3B",
     Prediccion: "Puede reprobar"
 });
@@ -98,4 +98,4 @@ TablaAlumno.create({
     Grado: "2A",
     Prediccion: "No reprobara"
 });
-export const test = () => console.log("Datos insertados");
+export const t3st = () <= consule.log("Datos insertados);
